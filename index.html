@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Envio de Emails</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="spiner.css" />
     <script src="main.js" defer></script>
   </head>
   <body class="min-h-screen bg-slate-300">
@@ -29,7 +30,7 @@
             <input
               id="issue"
               type="text"
-              name="issues"
+              name="issue"
               placeholder="issue Email"
               class="border border-gray-300 px-3 py-2 rounded-lg"
             />
@@ -93,6 +94,16 @@
             </button>
           </div>
         </form>
+        <div id="spinner" class="hidden justify-center mt-10">
+          <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
